@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>The Witcher</title>
+    <link href="https://fonts.googleapis.com/css?family=Roboto:400,700&display=swap&subset=cyrillic" rel="stylesheet">
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/swiper.min.css">
+    <link rel="stylesheet" href="css/jquery.fancybox.min.css">
+    <link rel="stylesheet" href="css/animate.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+    <div class="promo-block">
+        <img class="promo-block__image" src="img/background.jpg" alt="The Witcher">
+    </div>
+
+    <header class="header">
+
+        <div class="container">
+
+            <div class="header-content">
+                <img class="logo" src="img/logo.png" alt="логотип Ведьмак">
+
+                <nav class="menu-list">
+                    <a href="#" class="menu-list__link">Описание</a>
+                    <a href="#" class="menu-list__link">Трейлер</a>
+                    <a href="#" class="menu-list__link">Отзывы</a>
+                </nav>
+
+                <div class="socials">
+                    <a href="#" class="socials__link">
+                        <svg class="socials__link-icon" width="18" height="14" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M17.273 1.834c-1.087.048-1.063.044-1.186.054l.644-1.784S14.722.82 14.213.95C12.876-.218 10.888-.27 9.467.579c-1.164.695-1.789 1.888-1.58 3.283-2.265-.306-4.174-1.348-5.68-3.106L1.73.2l-.356.635c-.45.803-.6 1.72-.42 2.584.072.354.197.692.37 1.008l-.41-.154-.048.664c-.049.674.182 1.46.618 2.104.123.181.281.38.482.576l-.212-.031.258.76a3.73 3.73 0 001.956 2.201c-.912.376-1.649.616-2.86 1.003L0 11.903l1.023.544c.39.207 1.77.9 3.132 1.107 3.028.461 6.438.085 8.733-1.922 1.933-1.692 2.568-4.097 2.436-6.6-.02-.38.087-.741.3-1.019.43-.556 1.646-2.176 1.649-2.18zm-2.457 1.59a2.495 2.495 0 00-.502 1.658c.133 2.525-.574 4.483-2.103 5.82-1.785 1.561-4.664 2.174-7.9 1.682-.585-.09-1.191-.29-1.692-.49 1.015-.338 1.8-.64 3.066-1.223l1.767-.813-1.951-.12c-.935-.059-1.714-.499-2.192-1.213.254-.015.499-.055.743-.12L5.913 8.1l-1.877-.447c-.912-.217-1.432-.747-1.707-1.153-.181-.267-.3-.54-.37-.793.188.049.407.084.761.118l1.737.167L3.081 4.95c-.992-.751-1.39-1.88-1.098-2.965 3.095 3.118 6.73 2.883 7.095 2.966-.08-.76-.082-.761-.103-.834-.469-1.608.558-2.425 1.021-2.701.967-.578 2.503-.665 3.566.286.23.206.54.286.831.216.261-.063.475-.13.685-.202l-.437 1.21.558.001c-.105.137-.232.3-.383.498z"/>
+                        </svg>
+                    </a>
+                    <a href="#" class="socials__link">
+                        <svg class="socials__link-icon" width="18" height="17" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M2.53 16.776h12.213c1.395 0 2.53-1.102 2.53-2.457V2.457c0-1.355-1.135-2.457-2.53-2.457H2.53C1.135 0 0 1.102 0 2.457V14.32c0 1.355 1.135 2.457 2.53 2.457zM1.012 2.457c0-.813.681-1.474 1.518-1.474h12.213c.837 0 1.518.661 1.518 1.474V14.32c0 .813-.681 1.474-1.518 1.474H2.53c-.837 0-1.518-.661-1.518-1.474V2.457z"/><path d="M8.636 12.811c2.512 0 4.555-1.984 4.555-4.423s-2.043-4.423-4.555-4.423c-2.51 0-4.554 1.984-4.554 4.423s2.043 4.423 4.554 4.423zm0-7.863c1.954 0 3.543 1.543 3.543 3.44s-1.59 3.44-3.543 3.44-3.542-1.543-3.542-3.44 1.59-3.44 3.542-3.44zM13.41 4.71c.826 0 1.5-.655 1.5-1.458 0-.803-.674-1.457-1.5-1.457-.828 0-1.5.654-1.5 1.457s.672 1.457 1.5 1.457zm0-1.943c.275 0 .5.217.5.485a.494.494 0 01-.5.486.494.494 0 01-.5-.486c0-.268.223-.485.5-.485z"/></svg>
+                    </a>
+                    <a href="#" class="socials__link">
+                        <svg class="socials__link-icon" width="18" height="17" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M2.53 16.776h5.634v-5.963H6.14V8.847h2.024V6.389c0-1.355 1.135-2.457 2.53-2.457h2.53v1.966H11.2c-.558 0-1.012.44-1.012.983v1.966h2.945l-.337 1.966h-2.608v5.963h4.554c1.396 0 2.53-1.102 2.53-2.457V2.457c0-1.355-1.134-2.457-2.53-2.457H2.53C1.135 0 0 1.102 0 2.457V14.32c0 1.355 1.135 2.457 2.53 2.457zM1.012 2.457c0-.813.681-1.474 1.518-1.474h12.213c.837 0 1.518.661 1.518 1.474V14.32c0 .813-.681 1.474-1.518 1.474H11.2v-3.997h2.453l.675-3.932H11.2V6.88h3.037V2.949h-3.543c-1.953 0-3.542 1.543-3.542 3.44v1.475H5.128v3.932h2.024v3.997H2.53c-.837 0-1.518-.661-1.518-1.474V2.457z"/></svg>
+                    </a>
+                </div>
+            </div>
+
+            <div class="menu-button"></div>
+
+        </div> 
+
+    </header>
+
+    <main class="main">
+
+        <div class="container">
+
+            <div class="main-content">
+
+                <div class="content">
+                    
+                    <span class="genre animated fadeInRight">2019, фэнтэзи</span>
+
+                    <div class="rating animated fadeInRight">
+                        <div class="rating__stars">
+                            <img class="rating__stars-star" src="img/star.svg" alt="star">
+                            <img class="rating__stars-star" src="img/star.svg" alt="star">
+                            <img class="rating__stars-star" src="img/star.svg" alt="star">
+                            <img class="rating__stars-star" src="img/star.svg" alt="star">
+                            <img class="rating__stars-star" src="img/star.svg" alt="star">
+                            <img class="rating__stars-star" src="img/star.svg" alt="star">
+                            <img class="rating__stars-star" src="img/star.svg" alt="star">
+                            <img class="rating__stars-star" src="img/star-o.svg" alt="star-o">
+                            <img class="rating__stars-star" src="img/star-o.svg" alt="star-o">
+                            <img class="rating__stars-star" src="img/star-o.svg" alt="star-o">
+                        </div>
+                        <div class="rating__numbers">7/10</div>
+                    </div>
+
+                    <h1 class="main-title animated fadeInRight">Ведьмак</h1>
+
+                    <p class="main-description animated fadeInRight">
+                        Ведьмак Геральт, мутант и убийца чудовищ, на своей верной лошади по кличке Плотва путешествует по Континенту. За тугой мешочек чеканных монет этот мужчина избавит вас от всякой настырной нечисти — хоть от чудищ болотных, оборотней и даже заколдованных принцесс. 
+                    </p>
+
+                    <a class="button animated fadeInRight" data-fancybox href="https://www.youtube.com/watch?v=P0oJqfLzZzQ">Смотреть трейлер</a>
+
+                </div>
+
+                <a class="play" data-fancybox href="https://www.youtube.com/watch?v=P0oJqfLzZzQ">
+                    <svg class="play__image" width="36" height="40" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M34.181 18.313L2.891.26C1.606-.48 0 .452 0 1.929v36.142c0 1.477 1.606 2.409 2.891 1.67l31.29-18.055c1.286-.77 1.286-2.634 0-3.373z"/>
+                    </svg>
+                </a>
+
+            </div>
+
+            <div class="series">
+                <div class="swiper-container">
+                    <div class="swiper-wrapper">
+                        <div class="swiper-slide">
+                            <div class="series__card series__card--series-1">
+                                <span class="series__card-subtitle">Серия #1</span>
+                                <h2 class="series__card-title">Начало конца</h2>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="series__card series__card--series-2">
+                                <span class="series__card-subtitle">Серия #2</span>
+                                <h2 class="series__card-title">Четыре знака</h2>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="series__card series__card--series-3">
+                                <span class="series__card-subtitle">Серия #3</span>
+                                <h2 class="series__card-title">Предательская луна</h2>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="series__card series__card--series-4">
+                                <span class="series__card-subtitle">Серия #4</span>
+                                <h2 class="series__card-title">Банкеты, ублюдки и похороны</h2>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="series__card series__card--series-5">
+                                <span class="series__card-subtitle">Серия #5</span>
+                                <h2 class="series__card-title">Сдерживаемые аппетиты</h2>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="series__card series__card--series-6">
+                                <span class="series__card-subtitle">Серия #6</span>
+                                <h2 class="series__card-title">Редкие виды</h2>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="series__card series__card--series-7">
+                                <span class="series__card-subtitle">Серия #7</span>
+                                <h2 class="series__card-title">Перед падением</h2>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="series__card series__card--series-8">
+                                <span class="series__card-subtitle">Серия #8</span>
+                                <h2 class="series__card-title">Нечто большее</h2>
+                            </div>
+                        </div>
+                    </div>                
+                </div>
+
+                <button class="series__arrow"></button>
+            </div>
+
+        </div>
+
+    </main>
+
+    <footer class="footer">
+
+        <div class="container">
+
+            <div class="footer-content">
+                <span class="footer-content__copyright">© 2020 The Witcher. All right reserved.</span>
+
+                <nav class="footer-menu">
+                    <a href="#" class="footer-menu__link">Privacy Policy</a>
+                    <a href="#" class="footer-menu__link">Terms of Service</a>
+                    <a href="#" class="footer-menu__link">Legal</a>
+                </nav>
+            </div>
+
+        </div>
+
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.4.1/dist/jquery.min.js"></script>
+    <script src="js/jquery.fancybox.min.js"></script>
+    <script src="js/swiper.min.js"></script>
+    <script src="js/main.js"></script>
+</body>
+</html>
