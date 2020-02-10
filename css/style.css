@@ -394,6 +394,7 @@ body {
         content: '';
         left: 0;
         top: 0;
+        transition: transform 1s;
     }
 
     .menu-button:before {
@@ -407,7 +408,7 @@ body {
     .menu-button--active:before,
     .menu-button--active:after {
         margin-top: 0;
-        transition: transform 0.2s;
+        transition: transform 1s;
     }
 
     .menu-button--active:before {
@@ -432,7 +433,7 @@ body {
         width: 250px;
         padding-top: 60px;
         padding-bottom: 40px;
-        transition: opacity 0.2s;
+        transition-duration: 1s;
         z-index: 1;
     }
 
@@ -441,6 +442,7 @@ body {
         /* 1-ый способ задать анимацию для плавного появления с помощью св-в visibility и opacity */
         opacity: 1;
         visibility: visible;
+        transition-duration: 1s;
         /* 2-ой способ задать анимацию для плавного появления с помощью css3 анимации */
         /* animation: animation-menu-button 0.2s both; */
     }
