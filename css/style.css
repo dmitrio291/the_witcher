@@ -463,6 +463,10 @@ body {
         margin-right: 0;
         margin-bottom: 17px;
     }
+    
+    .menu-list__link:hover {
+        color: #ffffff;
+    }
 
     .socials {
         order: 1;
@@ -471,6 +475,10 @@ body {
 
     .socials__link:first-child {
         margin-left: 0;
+    }
+    
+    .socials__link:hover .socials__link-icon {
+        fill: #ffffff;
     }
 
     .swiper-container {
